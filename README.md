@@ -1,12 +1,14 @@
 # Raccoonly (raccoon.ly)
 
+Test git push to fork.
+
 ## Introduction
 
 Raccoonly is a simple web application built to help developer candidates demonstrate practical skills with
 
 * [GitHub](https://github.com/)
 * [Git](https://git-scm.com/)
-* [MySQL 5.5](https://www.mysql.com/) 
+* [MySQL 5.5](https://www.mysql.com/)
 * [PHP 5](http://php.net/)
 * [Composer 1.1](https://getcomposer.org/)
 * [CakePHP 3](http://cakephp.org/)
@@ -74,7 +76,7 @@ You can exit with `CTRL-C`
 
 ### Confirm the application is properly configured
 
-The application should be accessible at [http://localhost:8765/](http://localhost:8765/).  
+The application should be accessible at [http://localhost:8765/](http://localhost:8765/).
 
 If everything was installed and configured correctly, you should see a default CakePHP page with a list of environment, filesystem, database, and DebugKit checks.  If any of the checks fail, you will need to figure out why and fix them.  (This isn't a test.  The checks should all pass following the instructions above.)
 
@@ -83,8 +85,8 @@ If everything was installed and configured correctly, you should see a default C
 Raccoonly is a simple web application for tracking the raccoon population in Toronto and surrounding cities.  It lets you list, create, update, and delete `cities`, `tags`, and `raccoons` (which can live in 0..n cities and have 0..n tags):
 
 ### Default routes
-Cities: http://localhost:8765/cities  
-Raccoons: http://localhost:8765/raccoons  
+Cities: http://localhost:8765/cities
+Raccoons: http://localhost:8765/raccoons
 Tags: http://localhost:8765/tags
 
 Raccoonly follows the standard CakePHP folder structure and conventions.  98% of its code was generated using `cake bake all`, and only 2% was written to support the interview scenarios.
