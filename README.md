@@ -1,7 +1,5 @@
 # Raccoonly (raccoon.ly)
 
-Test git push to fork.
-
 ## Introduction
 
 Raccoonly is a simple web application built to help developer candidates demonstrate practical skills with
